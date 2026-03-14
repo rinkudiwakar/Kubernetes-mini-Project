@@ -1,0 +1,13 @@
+$kind: http-request
+name: K8s-test
+url: http://127.0.0.1:63956/
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: name
+      value: Postman User
+      description: ""
+      disabled: false
+order: 1773481161653
